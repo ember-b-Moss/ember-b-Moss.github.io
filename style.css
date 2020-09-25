@@ -159,3 +159,33 @@ address a {
 .work-experience li:first-child {
   margin-top: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+  html,
+  body {
+    background: #fff;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  .container {
+    border: 10px solid rgba(219, 163, 219, 1);
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .left-column {
+    width: 100%;
+  }
+
+  .left-column .border {
+    border: none;
+  }
+
+  .right-column {
+    float: left;
+    width: 100%;
+  }
+}
