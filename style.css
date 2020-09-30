@@ -204,8 +204,8 @@ address a {
   }
   #SoMe a{
     margin: 1em;
-    padding: 1em;
-    font-size: 3.5em ;
+    padding: 0.4em;
+    font-size: 3em ;
   }
   .mobile-view {
     display: inherit;
