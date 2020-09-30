@@ -160,6 +160,14 @@ address a {
   margin-top: 5px;
 }
 
+#SoMe a {
+  font-size: 3em;
+  margin-left: 1.5em;
+}
+.mobile-view {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   html,
   body {
@@ -187,5 +195,20 @@ address a {
   .right-column {
     float: left;
     width: 100%;
+  }
+  .desktop-view {
+    display: none;
+  }
+  #SoMe {
+    margin-top: 3.7em;
+  }
+  #SoMe a{
+    margin: 1em;
+    padding: 1em;
+    font-size: 3.5em ;
+  }
+  .mobile-view {
+    display: inherit;
+
   }
 }
