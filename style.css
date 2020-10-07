@@ -160,9 +160,13 @@ address a {
   margin-top: 5px;
 }
 
-#SoMe a {
+.desktop-view {
+display: flex;
+justify-content: space-around;
+}
+.desktop-view a {
   font-size: 3em;
-  margin-left: 1.5em;
+ 
 }
 .mobile-view {
   display: none;
