@@ -200,11 +200,12 @@ address a {
     display: none;
   }
   #SoMe {
-    margin-top: 3.7em;
+    display: flex;
+    justify-content: space-around;
   }
   #SoMe a{
     margin: 1em;
-    padding: 0.4em;
+   
     font-size: 3em ;
   }
   .mobile-view {
