@@ -211,10 +211,10 @@ margin-right: 10px !important;
   #SoMe a{
     margin: 1em;
    
-    font-size: 5em !important ;
+    font-size: 5em ;
   }
   .mobile-view {
     display: inherit;
-    margin-right: 40px !important;
+    
   }
 }
